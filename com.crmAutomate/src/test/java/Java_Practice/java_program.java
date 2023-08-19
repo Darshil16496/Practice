@@ -12,6 +12,6 @@ public class java_program {
 		WebDriver cd = new ChromeDriver();
 		cd.get("https://www.amazon.in/");
 		System.out.println(cd.getTitle());
-		cd.close();
+		
 	}
 }
